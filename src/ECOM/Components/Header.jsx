@@ -84,6 +84,9 @@ function Header() {
 
       <Navbar variant='dark' bg='dark' className='sticky-top'>
         <Container>
+          <div className='navbar-brand'>
+            <image src="https://icon-library.com/images/breakfast-icon-png/breakfast-icon-png-7.jpg"></image>
+          </div>
           <NavLink to="/Find-Your-Meal" className='nav' >FindYOurMEAL</NavLink>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">

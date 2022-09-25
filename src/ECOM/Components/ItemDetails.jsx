@@ -41,7 +41,7 @@ function ItemDetails() {
 
 //DELETE fun
 const remove = (id)=>{
-  atHome( '/' )
+  atHome( '/Find-Your-Meal' )
  dispatch(REMOVE(id))
 }
 
@@ -79,7 +79,7 @@ const removeOne = (item)=>{
 
 
 
-      <h1 className='text text-center mt-3'>Item Details</h1>
+      <h1 className='text text-center mt-3'> Details </h1>
 
       {
         data.map((item, key) => {
@@ -127,7 +127,7 @@ const removeOne = (item)=>{
 
                       <div style={{ backgroundColor: '#56d7c5' , width:'70px' , height:'30px', display:'flex', flexWrap:'nowrap', justifyContent:'space-around', alignItems:'center', borderRadius:'5px', cursor:'pointer'}}>
                         <span onClick={() => { removeOne(item) }}> - </span>
-                        <span style={{ backgroundColor:'#56d7c5' , padding:'3px'}}>{item.qnt}</span>
+                        <span style={{ backgroundColor:'#a0f1e0' , padding:'4px'}}>{item.qnt}</span>
                         <span onClick={() => {add(item) }} style={{fontSize:'larger'}}> +</span>
                       </div>
 
