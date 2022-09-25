@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Find-Your-Meal/static/css/main.fa95dbb9.css",
-    "main.js": "/Find-Your-Meal/static/js/main.dec9ab40.js",
+    "main.js": "/Find-Your-Meal/static/js/main.682a04cc.js",
     "index.html": "/Find-Your-Meal/index.html",
     "main.fa95dbb9.css.map": "/Find-Your-Meal/static/css/main.fa95dbb9.css.map",
-    "main.dec9ab40.js.map": "/Find-Your-Meal/static/js/main.dec9ab40.js.map"
+    "main.682a04cc.js.map": "/Find-Your-Meal/static/js/main.682a04cc.js.map"
   },
   "entrypoints": [
     "static/css/main.fa95dbb9.css",
-    "static/js/main.dec9ab40.js"
+    "static/js/main.682a04cc.js"
   ]
 }
