@@ -84,7 +84,7 @@ function Header() {
 
       <Navbar variant='dark' bg='dark' className='sticky-top'>
         <Container>
-          <NavLink to="/" className='nav' >FindYOurMEAL</NavLink>
+          <NavLink to="/Find-Your-Meal" className='nav' >FindYOurMEAL</NavLink>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
@@ -135,7 +135,7 @@ function Header() {
                     return (
                       <Card style={{ width: '30rem', height: 'auto', display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }} key={key} className=" cards my-3 mx-3" >
                         <i style={{ position: 'absolute', top: '1px', right: '10px', textDecoration: 'pointer' }} onClick={() => { remove(item.id) }}> ✖ </i>
-                        <NavLink to={`/detail/${item.id}`} >
+                        <NavLink to={`/Find-Your-Meal/detail/${item.id}`} >
                           <Card.Img className='img ' onClick={handleClose} src={item.image} style={{ height: '8rem', width: '8rem', margin: '20px', marginLeft: '20px', }} />
                         </NavLink>
                         <Card.Body>

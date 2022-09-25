@@ -2,7 +2,7 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 //
-import { useState  } from 'react';
+import { useState , useEffect  } from 'react';
 //
 
 import foodData from "../data"
@@ -16,6 +16,8 @@ function Home() {
   const [data, setData]= useState(foodData)
   console.log(data)
 
+
+  
   const dispatch = useDispatch()
 
   const send = (e, item)=>{
