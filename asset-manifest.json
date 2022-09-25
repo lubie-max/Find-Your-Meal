@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Find-Your-Meal/static/css/main.fa95dbb9.css",
+    "main.js": "/Find-Your-Meal/static/js/main.accccef1.js",
+    "index.html": "/Find-Your-Meal/index.html",
+    "main.fa95dbb9.css.map": "/Find-Your-Meal/static/css/main.fa95dbb9.css.map",
+    "main.accccef1.js.map": "/Find-Your-Meal/static/js/main.accccef1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa95dbb9.css",
+    "static/js/main.accccef1.js"
+  ]
+}
